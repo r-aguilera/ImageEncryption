@@ -10,15 +10,15 @@ Original | Encrypted | Decrypted
 
 ### PNG
 
-[PNG encryption](media/Squirrel_PNG.jpg)
+![PNG encryption](media/Squirrel_PNG.jpg)
 
 ### JPG
 
-[JPG encryption](media/Squirrel_JPG.jpg)
+![JPG encryption](media/Squirrel_JPG.jpg)
 
 ### BMP
 
-[BMP encryption](media/Squirrel_BMP.jpg)
+![BMP encryption](media/Squirrel_BMP.jpg)
 
 ## Things to do
 

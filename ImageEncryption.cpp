@@ -13,7 +13,7 @@ enum Mode {ENCRYPT = true, DECRYPT = false};
 int main()
 {
 	Mat image;
-	String path;	//String path = "../../media/Squirrel_PNG.png";
+	String path;
 	while (image.empty()) {
 		cout << "Enter the path and name of the image (relative or absolute):" << endl;
 		getline(cin, path);
@@ -32,11 +32,11 @@ int main()
 				return 0;
 		}
 	}
-	cout << "Enter password (must be an unsigned integer):" << endl;
-	int password = 0;
-	scanf("%d", &password);
-	if (getchar() != '\n') {};
-	srand (password);
+	cout << "Enter your password:" << endl;
+	hash<String> hashStr;
+	String password;
+	getline(cin, password);
+	srand (static_cast<unsigned int>(hashStr(password)));
 	cout << "Encrypt or decript image? (E/D):" << endl;
 	char key = getchar();
 	// Consume Enter press

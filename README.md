@@ -6,7 +6,7 @@ This is not intended as a safety measure to fully protect your image files. Its 
 
 ## Results :shipit:
 
-Original | Encrypted | Decrypted
+Original  |  Encrypted  |  Decrypted
 
 ### PNG
 
@@ -22,7 +22,7 @@ Original | Encrypted | Decrypted
 
 ## Things to do
 
-:x: Password as a String seed
+:heavy_check_mark: Password as a String seed
 
 :x: File autodetection
 
